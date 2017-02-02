@@ -6,13 +6,12 @@ import javax.persistence.*;
 public class Character {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "character_id")
-    private int id;
+    private int character_id;
     private String name;
     private int exp;
     private int level;
 
-    @OneToOne(mappedBy = "stats_id")
+    @OneToOne
     private CharacterStats stats;
 
 
