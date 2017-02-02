@@ -3,7 +3,7 @@ package com.sddr.rpg.beans;
 import javax.persistence.*;
 
 @Entity
-public class CharacterStats {
+public class HeroStats {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int stats_id;
@@ -15,11 +15,11 @@ public class CharacterStats {
     private int def;
     private int spr;
 
-    public CharacterStats() {
+    public HeroStats() {
 
     }
 
-    public CharacterStats(int hp, int mp, int atk, int mag, int def, int spr) {
+    public HeroStats(int hp, int mp, int atk, int mag, int def, int spr) {
         this.hp = hp;
         this.mp = mp;
         this.atk = atk;
