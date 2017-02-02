@@ -1,7 +1,7 @@
 package com.sddr.rpg.beans;
 
 public enum HeroType {
-    DPS("Attacker"), DEF("Defender"), SUP("Support"), TNK("Tank");
+    ATK("Attacker"), DEF("Defender"), SUP("Support");
 
     private final String type;
 
