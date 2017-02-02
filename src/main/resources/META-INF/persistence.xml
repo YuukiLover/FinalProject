@@ -24,9 +24,9 @@
           <property name="javax.persistence.jdbc.url"
                     value="jdbc:mysql://localhost:3306/base_final"/>
           <property name="javax.persistence.jdbc.user"
-                    value="root"/>
+                    value="yuuki_timmy"/>
             <property name="javax.persistence.jdbc.password"
-                    value=""/>
+                    value="yuuki_timmy_pwd"/>
 
           <property name="hibernate.c3p0.min_size"
                     value="5"/>
