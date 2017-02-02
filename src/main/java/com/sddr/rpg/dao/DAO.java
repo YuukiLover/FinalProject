@@ -1,14 +1,11 @@
 package com.sddr.rpg.dao;
 
-import javax.persistence.Entity;
-import javax.transaction.Transaction;
+import javax.persistence.EntityTransaction;
 
 public interface DAO {
 	
-	Transaction openTransaction();
+	EntityTransaction openTransaction();
 	void closeTransaction();
-	
-	Entity findAll();
 	
 	
 }

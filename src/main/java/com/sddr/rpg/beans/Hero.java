@@ -4,12 +4,12 @@ import javax.persistence.*;
 
 @Entity
 public class Hero {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private int character_id;
-    private String name;
-    private int exp;
-    private int level;
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private int character_id;
+	private String name;
+	private int exp;
+	private int level;
 
     @Enumerated(EnumType.STRING)
     private HeroType type;
