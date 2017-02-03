@@ -17,9 +17,7 @@ public abstract class Skill {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	protected String name;
-	protected String desc;
-	
-	public abstract void use();
+	protected String description;
 	
 	//TODO prevoir une List<Target> targets. A target is either a Hero either an enemy
 	
