@@ -1,4 +1,4 @@
-package com.sddr.rpg.beans;
+package com.sddr.rpg.beans.hero;
 
 public enum HeroType {
     ATK("Attacker"), DEF("Defender"), SUP("Support");

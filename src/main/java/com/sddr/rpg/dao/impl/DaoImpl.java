@@ -11,6 +11,9 @@ public abstract class DaoImpl implements DAO {
 	protected EntityManager em;
 	protected EntityTransaction tx;
 	
+	public DaoImpl(){
+		em = ConnectionProvider.getConnection();
+	}
 
 	public DaoImpl(){
 		em = ConnectionProvider.getConnection();

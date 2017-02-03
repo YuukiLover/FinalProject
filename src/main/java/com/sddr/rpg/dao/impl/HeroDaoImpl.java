@@ -5,7 +5,7 @@ import java.util.List;
 
 import javax.persistence.TypedQuery;
 
-import com.sddr.rpg.beans.Hero;
+import com.sddr.rpg.beans.hero.Hero;
 import com.sddr.rpg.dao.HeroDao;
 
 public class HeroDaoImpl extends DaoImpl implements HeroDao {
@@ -15,6 +15,7 @@ public class HeroDaoImpl extends DaoImpl implements HeroDao {
 	public void addHero(Hero h) {
 		
 		openTransaction();
+		em.persist(h.getStats());
 		em.persist(h);
 		closeTransaction();
 
