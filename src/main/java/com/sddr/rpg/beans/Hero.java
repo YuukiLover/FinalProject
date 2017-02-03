@@ -14,7 +14,7 @@ public class Hero {
     @Enumerated(EnumType.STRING)
     private HeroType type;
 
-    @OneToOne
+    @OneToOne(cascade=CascadeType.ALL)
     private HeroStats stats;
 
     public Hero(){}

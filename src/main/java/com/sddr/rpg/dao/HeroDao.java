@@ -1,5 +1,7 @@
 package com.sddr.rpg.dao;
 
+import java.util.List;
+
 import com.sddr.rpg.beans.Hero;
 
 public interface HeroDao extends DAO {
@@ -17,10 +19,14 @@ public interface HeroDao extends DAO {
 	
 	
 	/**
-	 * @return A true Hero not like you
+	 * @return A true Hero not like you or null in case of error
 	 * @param a magical number to find your Hero
 	 */
 	Hero getHero(int id);
 	
+	/**
+	 * @return a list of your favorite heroes.
+	 */
+	List<Hero> getAllHero();
 	
 }
