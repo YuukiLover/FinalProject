@@ -11,6 +11,7 @@ public class ConnectionProvider {
 		
 	}
 	
+	//Singleton Design Pattern
 	private static EntityManagerFactory emf;
 	private static EntityManager em;
 	
