@@ -14,10 +14,6 @@ public abstract class DaoImpl implements DAO {
 	public DaoImpl(){
 		em = ConnectionProvider.getConnection();
 	}
-
-	public DaoImpl(){
-		em = ConnectionProvider.getConnection();
-	}
 	
 	@Override
 	public EntityTransaction openTransaction() {
