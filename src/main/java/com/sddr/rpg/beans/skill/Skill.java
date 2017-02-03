@@ -1,4 +1,4 @@
-package com.sddr.rpg.beans.skills;
+package com.sddr.rpg.beans.skill;
 
 import javax.persistence.DiscriminatorColumn;
 import javax.persistence.Entity;
