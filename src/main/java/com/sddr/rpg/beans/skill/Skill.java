@@ -17,7 +17,7 @@ public abstract class Skill {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	protected String name;
-	protected String desc;
+	protected String description;
 	
 	public abstract void use();
 	
