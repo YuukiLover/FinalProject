@@ -1,6 +1,6 @@
 package com.sddr.rpg.dao;
 
-import com.sddr.rpg.beans.Hero;
+import com.sddr.rpg.beans.hero.Hero;
 
 public interface HeroDao extends DAO {
 

@@ -1,4 +1,4 @@
-package com.sddr.rpg.beans;
+package com.sddr.rpg.beans.hero;
 
 import javax.persistence.*;
 

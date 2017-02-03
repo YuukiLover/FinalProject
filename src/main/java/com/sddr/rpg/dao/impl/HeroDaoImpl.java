@@ -2,7 +2,7 @@ package com.sddr.rpg.dao.impl;
 
 import javax.persistence.TypedQuery;
 
-import com.sddr.rpg.beans.Hero;
+import com.sddr.rpg.beans.hero.Hero;
 import com.sddr.rpg.dao.HeroDao;
 
 public class HeroDaoImpl extends DaoImpl implements HeroDao {
