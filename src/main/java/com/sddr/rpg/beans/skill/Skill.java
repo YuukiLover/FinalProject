@@ -19,8 +19,6 @@ public abstract class Skill {
 	protected String name;
 	protected String description;
 	
-	public abstract void use();
-	
 	//TODO prevoir une List<Target> targets. A target is either a Hero either an enemy
 	
 
